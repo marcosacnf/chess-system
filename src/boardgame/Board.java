@@ -1,7 +1,7 @@
 package boardgame;
 
 public class Board {
-	
+
 	private int rows;
 	private int columns;
 	private Piece[][] pieces;
@@ -72,6 +72,4 @@ public class Board {
 		}
 		return piece(position) != null;
 	}
-	
-
 }
